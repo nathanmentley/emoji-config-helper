@@ -1,6 +1,6 @@
 💭🔜
     confighelper - A emojicode library to make processing application config files easier.
-  
+
     Copyright 2019 Nathan Mentley
     
     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
@@ -10,44 +10,38 @@
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 🔚💭
 
-💭 package imports
-📦 confighelper 🃏
+📗 A poeo structure to define command parameters. 📗
+🌍 🕊 📎 🍇
+  💭 init
+  🖍🆕 name 🔡
+  🖍🆕 description 🔡
+  🖍🆕 key 🔡
+  🖍🆕 default 🍬🔡
 
-🐇 ⚓ 🍇
-  🐊 🔶🃏⛽
+  💭 init
+  🆕
+    🍼 name 🔡
+    🍼 description 🔡
+    🍼 key 🔡
+    🍼 default 🍬🔡
+  🍇🍉
 
-  🆕 🍇🍉
 
-  🔓 ❓ 📛 ➡️ 🔡🍇
-    ↩️ 🔤Example App🔤
+  💭 getters
+  📗 Gets the parameter name 📗
+  🔓 ❓ 📛 ➡️  🔡 🍇
+    ↩️ name
   🍉
-
-  🔓 ❓ 💬 ➡️ 🔡🍇
-    ↩️ 🔤Example App Description🔤
+  📗 Gets the parameter description 📗
+  🔓 ❓ 💬 ➡️  🔡 🍇
+    ↩️ description
   🍉
-
-  🔓 ❓ ♾ ➡️ 💯🍇
-    ↩️ 0.1
+  📗 Gets the key used in the command line for the parameter 📗
+  🔓 ❓ 🔑 ➡️  🔡 🍇
+    ↩️ key
   🍉
-
-  🔓 ❓ 🖇 ➡️  🍨🐚🔶🃏📎🍆🍇
-    ↩️  🆕🍨🐚🔶🃏📎🍆🐸❗️
-  🍉
-🍉
-
-
-🏁 ➡️ 🔢 🍇
-  🆕 🔶🃏🔩 🆕
-    🆕 ⚓ 🆕 ❗️
-  ❗️ ➡️ app
-
-  💭 Execute the app.
-  🥑 ret 🏃 app 🔤~/.app-config.rc🔤 ❗️ 🍇
-    ↩️ ret
-  🍉
-  🙅 error 🍇
-    💭 Optionally use the built in error handling.
-    ⚕ app error ❗️
-    ↩️ -1
+  📗 Gets the default value for the parameter if no value is passed 📗
+  🔓 ❓ 🚗 ➡️  🍬🔡 🍇
+    ↩️ default
   🍉
 🍉

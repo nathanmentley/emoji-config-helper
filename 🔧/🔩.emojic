@@ -13,9 +13,27 @@
 
 🌍 🐇 🔩 🍇
   🖍🆕 appDelegate ⛽
+  🖍🆕 confgValues 🍯🐚🔡🍆
 
   💭 init
   🆕 🍼 appDelegate ⛽ 🍇
-
+    🆕🍯🐚🔡🍆🐸❗️➡️  🖍 confgValues
   🍉
+
+  💭 getters
+  📗 Get the config values. 📗
+  🔓 ❓ 🔗 ➡️  🍯🐚🔡🍆 🍇
+    ↩️  confgValues
+  🍉
+
+  💭 logic  
+  📗 Gets the config values from a file path. Run this for each config file location. In the order in which you expect each file ot override the other. For example run the global config first, then the user config next to override any global settings with the user's settings. 📗
+  🔓 ❗️ 🏃 filePath 🔡 ➡️ 🚨✋🔢 🍇
+    💭 when all fails throw unknown command error
+    💭 🚨🆕✋🤦❗️ 💭 throw error
+    ↩️ 0
+  🍉
+
+  📗 Built in way to handle errors. This isn't needed, but could be used in the catch statement if the developer doesn't want to override exception handling with an custom logic. 📗
+  🔓 ❗️ ⚕ error ✋ 🍇🍉
 🍉
